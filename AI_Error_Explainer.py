@@ -5,8 +5,8 @@ print("Project setup complete!")
 
 for i in range(3):
     try:
-        userInput = int(input("Enter a number to divide by 100: "))
-        divide = userInput / 100
+        userInput = int(input("Enter a number to get divided by 100: "))
+        divide = 100 / userInput
         print(divide)
 
     except ValueError as error:
