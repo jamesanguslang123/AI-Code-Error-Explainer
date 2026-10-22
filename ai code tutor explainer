@@ -1,0 +1,75 @@
+# CodeTutor — AI Code Error Explainer
+
+## About
+
+CodeTutor is a beginner-friendly Python project designed to help programmers understand and fix coding errors.
+
+The aim is to explain errors in simple language, identify possible causes, and suggest ways to fix them. This project is also helping me develop my Python programming and learn how to integrate AI into an application.
+
+**Status:** In development 🚧
+
+## Features and Components
+
+- **Rule-based error explainer:** An early version that explores explaining coding errors using Python.
+- **Code checker:** Uses Python's Abstract Syntax Tree (AST) tools to check code for syntax errors.
+- **AI error explainer:** Work towards using AI to explain errors and suggest fixes.
+- **Gemini API integration:** Connects Python to Google's Gemini API to generate beginner-friendly explanations.
+
+Some features are still being developed and tested.
+
+## Technologies
+
+- Python
+- Google's Gemini API
+- Google Gen AI Python SDK
+- Python AST tools
+- Visual Studio Code
+
+## Setup
+
+1. Install Python.
+2. Install the Google Gen AI SDK:
+
+   ```powershell
+   py -m pip install google-genai
+   ```
+
+3. Create a Gemini API key through Google AI Studio.
+4. Set your API key as an environment variable in PowerShell:
+
+   ```powershell
+   $env:GEMINI_API_KEY="YOUR_API_KEY"
+   ```
+
+   Replace `YOUR_API_KEY` with your own key locally. Never upload your API key to GitHub.
+
+5. Run the relevant Python file from your terminal, for example:
+
+   ```powershell
+   py codetutor_v0_1.py
+   ```
+
+   Make sure you are in the folder containing the file before running the command.
+
+## What I'm Learning
+
+Through this project, I am developing my understanding of:
+
+- Python variables, functions and user input.
+- Error handling with `try` and `except`.
+- Detecting Python syntax errors.
+- Sending prompts to an AI model through an API.
+- Handling API responses and errors.
+- Testing, debugging and improving a software project.
+
+## Future Improvements
+
+- Improve the accuracy of error explanations.
+- Explain common Python errors with practical examples.
+- Make the program easier to use.
+- Add more error-checking features.
+- Test the program with different coding mistakes.
+
+## Goal
+
+My goal is to develop CodeTutor into a useful tool that helps beginner programmers understand errors instead of simply copying fixes.
